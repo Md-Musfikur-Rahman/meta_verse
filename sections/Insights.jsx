@@ -8,7 +8,7 @@ import { staggerContainer } from "../utils/motion";
 import { InsightCard, TitleText, TypingText } from "../components";
 
 const Insights = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section id="insight" className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"

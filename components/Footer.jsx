@@ -1,10 +1,11 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { socials } from '../constants';
+import { motion } from "framer-motion";
+import { socials } from "../constants";
 
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
+import Link from "next/link";
 
 const Footer = () => (
   <motion.footer
@@ -45,12 +46,17 @@ const Footer = () => (
 
           <div className="flex gap-4">
             {socials.map((social) => (
-              <img
-                key={social.name}
-                src={social.url}
-                alt={social.name}
-                className="w-[24px] h-[24px] object-contain cursor-pointer"
-              />
+              <Link
+                href={social.profileURL}
+                className="hover:bg-[#aaa] border p-2 rounded-full duration-500"
+              >
+                <img
+                  key={social.name}
+                  src={social.url}
+                  alt={social.name}
+                  className="w-[24px] h-[24px] object-contain cursor-pointer"
+                />
+              </Link>
             ))}
           </div>
         </div>

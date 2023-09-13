@@ -51,18 +51,23 @@ export const insights = [
   {
     imgUrl: "/planet-06.png",
     title: "The launch of the Metaverse makes Elon musk ketar-ketir",
+    articaleURL:
+      "https://indianexpress.com/article/technology/tech-news-technology/elon-musk-mocks-metaverse-idea-says-nobody-wants-a-screen-strapped-to-their-face-7686834/",
     subtitle:
       "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
   },
   {
     imgUrl: "/planet-07.png",
     title: "7 tips to easily master the madness of the Metaverse",
+    articaleURL:
+      "https://texti.app/phrase/7-tips-to-easily-master-the-madness-of-the-metaverse",
     subtitle:
       "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
   },
   {
     imgUrl: "/planet-08.png",
     title: "With one platform you can explore the whole world virtually",
+    articaleURL: "https://www.klapty.com",
     subtitle:
       "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
   },
@@ -72,17 +77,21 @@ export const socials = [
   {
     name: "twitter",
     url: "/twitter.svg",
+    profileURL: "https://www.twitter.com/",
   },
   {
     name: "linkedin",
     url: "/linkedin.svg",
+    profileURL: "https://www.linkedin.com/",
   },
   {
     name: "instagram",
     url: "/instagram.svg",
+    profileURL: "https://www.instagram.com/",
   },
   {
     name: "facebook",
     url: "/facebook.svg",
+    profileURL: "https://www.facebook.com/",
   },
 ];
