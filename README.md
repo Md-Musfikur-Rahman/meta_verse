@@ -58,4 +58,4 @@ For inquiries, feedback, or support, please contact the project maintainer(s) at
 ---
 
 **Screenshot**:
-![Metaverse Landing Page Screenshot](metaverse.png)
+![Metaverse Landing Page Screenshot](Screenshot.png)
